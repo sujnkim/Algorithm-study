@@ -13,7 +13,7 @@ n,m = map(int, input().split())
 #start=time.time()
 
 """
-각 행에서 최소인 숫자 중 최대인 것이 최종 result
+각 행에서 최소인 숫자 중 최대인 것이 result(최종결과)
 * 각 행에서 최소인 것을 선택: min함수
 * 현재 result와 비교, 큰 숫자가 result: max함수
 """
