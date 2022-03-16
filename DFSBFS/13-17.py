@@ -1,5 +1,5 @@
 """
-[ch13.DFSBFS] 13-17: 경쟁적 전염 | 난이도2 | 핵심 유형
+[ch13.DFSBFS] 경쟁적 전염 | 난이도2 | 핵심 유형
 INPUT: 시험관 크기n, 바이러스 종류k
     * 첫째 줄에 공백으로 구분된 n, k (1<=n<=200, 1<=k<=1000)
     * 둘째 줄 부터 n개의 줄에 시험관 정보 제공
@@ -53,15 +53,18 @@ def solution(x, y):
                     queue.append((i, j))
                 else: continue
     #print(queue)
-                    
+
+    prev = k
     while queue:
         #print(queue)
         qx, qy = queue.popleft()
 
-        # 시간이 s초가 지나면 종료
-        # 바이러스 값이 1일때마다 시간을 1증가
-        if graph[qx][qy]==1:
+        # 이전 바이러스값이 k, 현재 바이러스값이 1인 경우만 1초 증가
+        if prev==k and graph[qx][qy] == 1:
             nowsec += 1
+        prev = graph[qx][qy]
+            
+        # 시간이  s+1인 경우 더 이상 진행하지 않고 종료
         if nowsec == s+1:
             break
 
@@ -86,3 +89,12 @@ def solution(x, y):
 
 #output
 print(solution(x,y))
+
+"""
+[느낀점]
++ 처음에 문제 풀 때 시간 조건을 놓치고 풀어서 2번째 예시에서 틀린 답이 나옴
+-> 한 번 pop할 때 초가 매번 증가하는 것이 아님(주의)
+-> 이전에 pop했을 때 바이러스 값이 k, 현재 pop했을 때 바이러스 값이 1인 경우만 1초 증가
+
++ 이제 사방을 탐색하는 문제는 어떻게 코딩하면 될 지 감이 잡히는 것 같다 !!
+"""
