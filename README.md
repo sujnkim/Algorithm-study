@@ -1,4 +1,4 @@
-ddd# Algorithm-Study
+# Algorithm-Study
 > 알고리즘 스터디를 위한 개인 공간
 
 ## Program Language
