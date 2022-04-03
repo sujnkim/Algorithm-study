@@ -16,7 +16,7 @@ data = []
 for _ in range(n):
     data.append(int(input()))
 """
-# input()함수로 좌표 데이터를 입력받을 경우, 시간초과 오류 발생
+# input()함수로 좌표 데이터를 입력받을 경우, 시간초과 오류 발생함
 n, c = map(int, input().split())
 array = [int(sys.stdin.readline().rstrip()) for _ in range(n)]
 
