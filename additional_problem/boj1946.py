@@ -33,6 +33,7 @@ for tc in range(int(input())):
 
     score = []
     for _ in range(n):
+        a, b = map(int, input().split())
         score.append((a, b))
 
 
