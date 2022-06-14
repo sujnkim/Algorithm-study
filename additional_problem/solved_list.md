@@ -1,7 +1,8 @@
-## Solved additional problem List
+# Solved additional problem List
 
-* boj: 백준
-* prog: 프로그래머스
+#### 문제 분류
+* boj-: 백준
+* prog-: 프로그래머스
 
 ### 1. 그리디Greedy
 * boj1700: 멀티탭 스케줄링
