@@ -23,3 +23,9 @@
     * https://www.acmicpc.net/problem/8958
 * boj15686: 치킨 배달
     * https://www.acmicpc.net/problem/15686
+
+
+
+### 3. 깊이/너비우선탐색DFS/BFS
+* boj2468: 안전 영역
+   * https://www.acmicpc.net/problem/2468
