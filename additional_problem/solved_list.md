@@ -29,3 +29,5 @@
 ### 3. 깊이/너비우선탐색DFS/BFS
 * boj2468: 안전 영역
    * https://www.acmicpc.net/problem/2468
+* boj18352:  특정 거리의 도시 찾기
+   * https://www.acmicpc.net/problem/18352
