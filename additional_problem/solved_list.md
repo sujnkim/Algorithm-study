@@ -35,6 +35,8 @@
    * https://www.acmicpc.net/problem/18405
 * boj18352: 특정 거리의 도시 찾기
    * https://www.acmicpc.net/problem/18352
+* boj18428: 감시 피하기
+   * https://www.acmicpc.net/problem/18428
 
 
 
