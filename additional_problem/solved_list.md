@@ -27,6 +27,8 @@
 
 
 ### 3. 깊이/너비우선탐색DFS/BFS
+* boj1012: 유기농 배추
+   * https://www.acmicpc.net/problem/1012
 * boj2468: 안전 영역
    * https://www.acmicpc.net/problem/2468
 * boj14502: 연구소
