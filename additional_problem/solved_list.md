@@ -31,6 +31,8 @@
    * https://www.acmicpc.net/problem/1012
 * boj2468: 안전 영역
    * https://www.acmicpc.net/problem/2468
+* boj2644: 촌수 계산
+   * https://www.acmicpc.net/problem/2644
 * boj14502: 연구소
    * https://www.acmicpc.net/problem/14502
 * boj18405: 경쟁적 전염
