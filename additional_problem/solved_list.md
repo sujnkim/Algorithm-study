@@ -29,10 +29,14 @@
 ### 3. 깊이/너비우선탐색DFS/BFS
 * boj1012: 유기농 배추
    * https://www.acmicpc.net/problem/1012
+* boj1325: 효율적인 해킹
+   * https://www.acmicpc.net/problem/1325
 * boj2468: 안전 영역
    * https://www.acmicpc.net/problem/2468
 * boj2644: 촌수 계산
    * https://www.acmicpc.net/problem/2644
+* boj7569: 토마토
+   * https://www.acmicpc.net/problem/7569
 * boj14502: 연구소
    * https://www.acmicpc.net/problem/14502
 * boj18405: 경쟁적 전염
