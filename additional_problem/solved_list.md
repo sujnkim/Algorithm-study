@@ -33,6 +33,8 @@
    * https://www.acmicpc.net/problem/1325
 * boj2468: 안전 영역
    * https://www.acmicpc.net/problem/2468
+* boj2573: 빙산
+   * https://www.acmicpc.net/problem/2573
 * boj2644: 촌수 계산
    * https://www.acmicpc.net/problem/2644
 * boj7569: 토마토
