@@ -50,6 +50,15 @@
 
 
 
+### 4. 이분(이진) 탐색Binary Search
+* boj1939: 중량 제한
+   * https://www.acmicpc.net/problem/1939
+* boj2805: 나무 자르기
+   * https://www.acmicpc.net/problem/2805
+* boj2343: 기타 레슨
+   * https://www.acmicpc.net/problem/2343
+
+
 ### 추가
 * pro60058: 괄호 변환 ... 재귀문제
    * https://programmers.co.kr/learn/courses/30/lessons/60058
